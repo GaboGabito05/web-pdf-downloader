@@ -18,8 +18,8 @@ Este es un proyecto de aplicación web construido con **Astro**, **Tailwind CSS*
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tuusuario/web-to-pdf.git
-   cd web-to-pdf
+   git clone https://github.com/GaboGabito05/web-pdf-downloader.git
+   cd web-pdf-downloader
    ```
 2. Instala las dependencias:
    ```sh
