@@ -1,0 +1,41 @@
+---
+import LoginForm from '../components/LoginForm';
+import AppIcon from '../icons/AppIcon.astro';
+import '../styles/Header.css';
+---
+<nav>
+  <div class="logo">
+    <AppIcon />
+    <span class="logo-text">Appwave</span>
+  </div>
+  
+  <div class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="nav-links">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#downloads" class="nav-link">Downloads</a>
+    <a href="#about" class="nav-link">About</a>
+    <button class="login-btn">Login</button>
+  </div>
+</nav>
+
+<LoginForm />
+
+<div id="home" class="hero">
+  <h1>Connect With Your Customers</h1>
+  <p>Transform your customer communication with Appwave's powerful messaging platform. Built for modern businesses.</p>
+  <div class="search-container">
+    <input type="text" class="search-input" placeholder="Enter your email to get started...">
+    <button class="search-btn">Get Started</button>
+  </div>
+  <div class="progress-container">
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+    <div class="progress-text">Loading resources...</div>
+  </div>
+</div>
