@@ -2,6 +2,7 @@
 import LoginForm from '../components/LoginForm';
 import AppIcon from '../icons/AppIcon.astro';
 import '../styles/Header.css';
+import '../functions/download';
 ---
 
 <nav>
@@ -30,8 +31,8 @@ import '../styles/Header.css';
   <h1>Download your Web Pages as PDF's</h1>
   <p>After registering with Vortex you will be able to enter the URL of your website and download it as a PDF.</p>
   <div class="search-container">
-    <input type="text" class="search-input" placeholder="Enter your URL to get started...">
-    <button class="search-btn">DOWNLOAD</button>
+    <input type="text" class="search-input" id="url-input" placeholder="Enter your URL to get started...">
+    <button class="search-btn" id="button-download">DOWNLOAD</button>
   </div>
   <div class="progress-container">
     <div class="progress-bar">

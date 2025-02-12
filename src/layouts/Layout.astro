@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-	<meta name="description" content="Download PDFs easily with Vortex PDF Downloader by Gabo." />
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-	<link rel="stylesheet" href="src/styles/global.css" />
+    <meta name="description" content="Download PDFs easily with Vortex PDF Downloader by Gabo." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
     <title>Vortex PDF Downloader | by Gabicho</title>
   </head>
   <body>
-	  <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <slot />
-	  <script src="../functions/index.js"></script>
+    <script src="/src/functions/index.js"></script>
+    <script src="/src/functions/download.js"></script>
   </body>
 </html>
