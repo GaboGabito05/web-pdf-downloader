@@ -1,33 +1,8 @@
 ---
-import UserIcon from "../icons/UserIcon";
-import LinkedinIcon from "../icons/LinkedinIcon";
-import GithubIcon from "../icons/GithubIcon";
+import React from "react";
 import AboutCard from "../components/AboutCard";
+import { aboutData } from "../functions/data";
 import "../styles/About.css";
-
-const data = [
-  { 
-    icon: <UserIcon/>,
-    title: "Gabriel Polack",
-    description: "Software Developer",
-    link: "https://gabo.dev",
-    button: "Visit Portfolio",
-  },
-  {
-    icon: <LinkedinIcon/>,
-    title: "LinkedIn Profile",
-    description: "Connect with me on LinkedIn",
-    link: "https://www.linkedin.com/in/gabriel-polack-castillo/",
-    button: "Visit Profile",
-  },
-  {
-    icon: <GithubIcon/>,
-    title: "GitHub Profile",
-    description: "Check out my projects",
-    link: "https://github.com/GaboGabito05",
-    button: "Visit Profile",
-  },
-];
 ---
 
 <section id="about" class="about-section">
@@ -35,9 +10,9 @@ const data = [
     <h2 class="about-title">About</h2>
     <div class="cards-container">
       {
-        data.map((card) => (
+        aboutData.map((card: { icon: React.ElementType, title: string, description: string, link: string, button: string }) => (
           <AboutCard
-            icon={card.icon}
+            icon={React.createElement(card.icon)}
             title={card.title}
             description={card.description}
             link={card.link}

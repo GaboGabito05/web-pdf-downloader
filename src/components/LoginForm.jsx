@@ -6,9 +6,9 @@ function LoginForm() {
             <div className="modal-content">
                 <button className="close-modal">&times;</button>
                 <form className="login-form">
-                    <h2>Login to Appwave</h2>
+                    <h2>Login to Vortex PDF</h2>
                     <div className="form-group">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">Username</label>
                         <input type="email" id="email" required />
                     </div>
                     <div className="form-group">

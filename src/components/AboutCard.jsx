@@ -5,7 +5,7 @@ function AboutCard({ icon, title, description, link, button }) {
     return (
         <div className="about-card">
             <div className="card-icon">
-                <img src={icon} alt="icon" />
+                {icon}
             </div>
             <h3>{title}</h3>
             <p>{description}</p>
@@ -22,7 +22,7 @@ function AboutCard({ icon, title, description, link, button }) {
 }
 
 AboutCard.propTypes = {
-    icon: PropTypes.string.isRequired,
+    icon: PropTypes.element.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
