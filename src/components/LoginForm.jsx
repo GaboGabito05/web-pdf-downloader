@@ -1,4 +1,4 @@
-import GoogleIcon from '../icons/GoogleIcon.astro';
+import GoogleIcon from '../icons/GoogleIcon';
 import '../styles/Form.css';
 
 function LoginForm() {
