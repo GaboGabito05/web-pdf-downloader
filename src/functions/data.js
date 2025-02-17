@@ -29,32 +29,32 @@ export const aboutData = [
 export const downloadData = [
   {
     name: "Appwave Desktop v2.1.0",
-    date: "Downloaded: June 15, 2023",
+    date: "June 15, 2023",
     size: "64.5 MB",
   },
   {
     name: "Appwave Mobile v1.9.2",
-    date: "Downloaded: May 28, 2023",
+    date: "May 28, 2023",
     size: "32.8 MB",
   },
   {
     name: "Appwave Desktop v2.0.5",
-    date: "Downloaded: April 10, 2023",
+    date: "April 10, 2023",
     size: "61.2 MB",
   },
   {
     name: "Appwave Desktop v2.0.0",
-    date: "Downloaded: March 15, 2023",
+    date: "March 15, 2023",
     size: "60.8 MB",
   },
   {
     name: "Appwave Mobile v1.8.5",
-    date: "Downloaded: February 28, 2023",
+    date: "February 28, 2023",
     size: "31.2 MB",
   },
   {
     name: "Appwave Desktop v1.9.8",
-    date: "Downloaded: January 20, 2023",
+    date: "January 20, 2023",
     size: "58.9 MB",
   },
 ];
